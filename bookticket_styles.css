@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(50, 160, 233);
+    max-width:100%;
+}
+
+.book_box
+{
+    width:450px;
+    height:450px;
+    background: black;
+    margin:10px 420px;
+    padding:50px;
+}
+
+.place
+{
+    margin:0px 625px;
+}
+
+h1
+{
+    text-align:center;
+    color:white;
+    background:black;
+}
+
+label
+{
+    color:white;
+    background-color: black;
+    margin:20px 
+}
+
+input,select,option
+{
+    text-align: center;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 18px 28px; /* x margin and y margin */
+    padding: 9px;
+}
+
+::placeholder{
+    color:rgba(128, 128, 128, 0.932);
+}
+
+form
+{
+    background-color: black;
+}
+
+.btn
+{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 8px 12px;
+    background: white;
+    color: black;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: auto 400px;
+}
+
+.btns
+{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 8px 12px;
+    background: white;
+    color: black;
+    border-radius: 14px;
+    cursor: pointer;
+    margin:0px auto;
+}
+
+.msg
+{
+    color:black;
+    font-size: 30px;
+}
+
+.already
+{
+    background-color: rgb(50, 160, 233);
+    max-width: 100%;
+    text-align:center;
+    font-size:25px;
+}
+
+.msg
+{
+    background-color: rgb(50, 160, 233);
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}

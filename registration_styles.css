@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* for defining the class style, we use a dot(.) before the name */
+
+.container
+{
+    max-width: 100%;
+    background-color: rgb(50, 160, 233); /* we can select the required coloring */
+    padding: 34px;
+    margin: auto /* auto margin makes it in the center */
+}
+
+.container h1,h3,p
+{          /* style for explicitly for h2 and p tags */
+    text-align: center;
+    
+}
+p
+{
+    font-size: 18px;
+}
+
+/* for defining the style of a tag, we do not have to use a dot(.) before the name */
+
+input,textarea      /* before this container, all will be in a single line */
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 12px 0px; /* x margin and y margin */
+    padding: 7px;
+}                   /* after this container, all will be in seperate lines with proper arrangement */
+
+form   /* alignment of the fields in center */
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn
+{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 8px 12px;
+    background: white;
+    color: black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.msg
+{
+    background-color: rgb(50, 160, 233);
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+.already
+{
+    background-color: rgb(50, 160, 233);
+    max-width: 100%;
+    text-align:center;
+    font-size:25px;
+}
